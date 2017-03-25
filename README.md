@@ -53,7 +53,4 @@ We've captured many of the most useful commands in npm scripts defined in the `p
 [Christopher Martin](https://github.com/cgmartin)
 with excellent support for Angular apps that use routing.
 * `npm run typings` - runs the typings tool.
-* `npm run postinstall` - called by *npm* automatically *after* it successfully completes package installation. This script installs the TypeScript definition files this app requires.
-Here are the test related scripts:
-* `npm test` - compiles, runs and watches the karma unit tests
-* `npm run e2e` - run protractor e2e tests, written in JavaScript (*e2e-spec.js)
+* `npm run postinstall` - called by *npm* automatically *after* it successfully completes package
