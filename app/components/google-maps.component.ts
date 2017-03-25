@@ -18,7 +18,6 @@ export class GoogleMapsComponent {
     initializeMap() {
         if (navigator.geolocation) {
             navigator.geolocation.getCurrentPosition((position) => {
-                console.log(position);
                 var pos: Position = new Position(position.coords.latitude, position.coords.longitude);
                 this.lat = pos.lat;
                 this.lng = pos.lng;
@@ -28,7 +27,6 @@ export class GoogleMapsComponent {
                     zoom: 16,
                     mapTypeId: google.maps.MapTypeId.ROADMAP
                 };
-                console.log('started here');
                 var map = new google.maps.Map(document.getElementById("googleMaps"), mapProp);
 
                 var marker = new google.maps.Marker({
