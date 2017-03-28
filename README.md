@@ -1,5 +1,4 @@
 # Angular 2 QuickStart Source
-[![Build Status][travis-badge]][travis-badge-url]
 
 This repository holds the TypeScript source code of the [angular.io quickstart](https://angular.io/docs/ts/latest/quickstart.html),
 
@@ -13,8 +12,6 @@ Get it now</a> if it's not already installed on your machine.
 **Verify that you are running at least node `v4.x.x` and npm `3.x.x`**
 by running `node -v` and `npm -v` in a terminal/console window.
 Older versions produce errors.
-
-Create a *remote repository* for this project on the service of your choice.
 
 ## Install npm packages
 
